@@ -7,7 +7,7 @@ gem "allure-rspec", path: "allure-rspec"
 gem "allure-ruby-commons", path: "allure-ruby-commons"
 
 group :development do
-  gem "colorize", "~> 0.8.1"
+  gem "colorize", "~> 1.1.0"
   gem "git", "~> 1.12"
   gem "pry", "~> 0.14.1"
   gem "rake", "~> 13.0.6"
