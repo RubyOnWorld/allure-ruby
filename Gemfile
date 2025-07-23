@@ -21,5 +21,5 @@ group :test do
   gem "rubocop", "~> 1.36.0"
   gem "rubocop-performance", "~> 1.15.0"
   gem "simplecov", "~> 0.21.2"
-  gem "simplecov-console", "~> 0.9.1"
+  gem "simplecov-console", "~> 0.9.4"
 end
