@@ -48,7 +48,7 @@ jobs:
           coverageCommand: bundle exec rake test:coverage
           coverageLocations: coverage/coverage.json:simplecov
       - name: Upload report
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v7
         with:
           name: allure-results
           path: "*/reports/allure-results/*"
